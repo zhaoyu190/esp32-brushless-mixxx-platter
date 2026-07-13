@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MixxxControllerPreset mixxxVersion="" schemaVersion="1">
+  <info>
+    <name>ESP32 Brushless Platter</name>
+    <author>Codex</author>
+    <description>Bidirectional mapping for an ESP32 brushless motor platter bridge.</description>
+  </info>
+  <controller id="ESP32 Brushless Platter">
+    <scriptfiles>
+      <file filename="ESP32-Brushless-Platter-scripts.js" functionprefix="ESP32BrushlessPlatter"/>
+    </scriptfiles>
+    <controls>
+      <control>
+        <group>[Channel1]</group>
+        <key>ESP32BrushlessPlatter.jog</key>
+        <status>0xB0</status>
+        <midino>0x10</midino>
+        <options>
+          <script-binding/>
+        </options>
+      </control>
+    </controls>
+    <outputs>
+      <output>
+        <group>[Channel1]</group>
+        <key>play</key>
+        <status>0xB0</status>
+        <midino>0x14</midino>
+        <on>0x7F</on>
+        <off>0x00</off>
+        <minimum>0.5</minimum>
+      </output>
+    </outputs>
+  </controller>
+</MixxxControllerPreset>

@@ -1,0 +1,17 @@
+.DS_Store
+
+# PlatformIO / build caches
+.pio-core/
+.pio/
+**/.pio/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local editor state
+.vscode/
+
+# Local secrets
+esp32_motor_test/src/wifi_config.h
+
