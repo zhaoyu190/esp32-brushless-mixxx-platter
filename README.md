@@ -4,6 +4,12 @@
 
 ![ESP32 控制三相无刷电机接线教程](assets/wiring-tutorial.png)
 
+## 视频演示
+
+GitHub README 不支持直接嵌入 B 站播放器，可以点击下面链接观看演示视频：
+
+[Bilibili 视频：ESP32 + 无刷电机 Mixxx 打碟盘演示](https://www.bilibili.com/video/BV1LQMp6LEuR/?vd_source=0cd436a5c6126d1262e824186e525abe#reply116890873633480)
+
 核心效果：
 
 - Mixxx 播放时，无刷电机盘跟着转。
